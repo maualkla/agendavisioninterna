@@ -19,6 +19,7 @@ while($row2 = mysqli_fetch_array($consultasecre, MYSQLI_BOTH))
             if($psico == $row3[4])
             {
                 $id = $row2[0];
+                $psico = $row3[0];
                 $paso = 1;
                 $lev = 0;
             }
@@ -40,16 +41,26 @@ if($paso == 0)
     }
 }
 
-
 if($paso == 1)
 {
     if($lev == 0)
     {
-        header('Location: inicio.php?var='.$lev.'&var2='.$id.'&var3="1"&var4='.$psico.'');   
+        session_start();
+        $_SESSION['sesion'] = '####%%';
+        $_SESSION['status'] = $lev;
+        $_SESSION['idusua'] = $id;
+        $_SESSION['seccion'] = 1;
+        $_SESSION['psico'] = $psico;
+        header('Location: inicio.php?');   
     }
     else
     {
-        header('Location: inicio.php?var='.$lev.'&var2='.$id.'&var3="1"&var4=0');
+        session_start();
+        $_SESSION['sesion'] = '####%%';
+        $_SESSION['status'] = $lev;
+        $_SESSION['idusua'] = $id;
+        $_SESSION['psico'] = 0;
+        header('Location: inicio.php?var='.$lev.'&var2='.$id.'&var3=1&var4=0');
     }
 }
 else

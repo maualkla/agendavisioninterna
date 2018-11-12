@@ -1,16 +1,18 @@
 <html>
-    <head>
+    <head> 
         <title> LOGIN </title>
         <link rel="shortcut icon" href="data/logo - copia.ico.png">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        <div>
-            <form name="login" method="post" action="index.php">
-                <p>BIENVENIDO</p>
-                <input type="text" autofocus id="user" name="user" size="18"  placeholder="Usuario" >
-                <input type="text" id="psico" name="psico" size="18" placeholder="Psicologa"  >
-                <input type="password" id="password" name="contra" size="18" placeholder="Contraseña"  ><br><br>
-                <input class="botongeneral" type="submit" name="botonlogin" value="ACCEDER">
+    <body onload="nobackbutton();">
+        <div class="fondolog">
+            <p id="welcome">BIENVENIDO</p>
+            <form class="login" name="login" method="post" action="index.php">
+                <input type="text" autofocus id="user" name="user" size="18"  placeholder="Usuario" class="textboxlog" >
+                <input type="text" id="psico" name="psico" size="18" placeholder="Psicologa" class="textboxlog" >
+                <input type="password" id="password" name="contra" size="18" placeholder="Contraseña" 
+                class="textboxlog"><br><br>
+                <input id="botonli" class="botongeneral" type="submit" name="botonlogin" value="ACCEDER">
             </form>
         </div>
     </body>

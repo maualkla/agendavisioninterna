@@ -1,0 +1,450 @@
+
+/*-----------------------LOGIN------------------------*/
+.fondolog
+{
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: -webkit-linear-gradient(#0aaa82,#63c0c8,#055b5b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0aaa82,#63c0c8, #055b5b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0aaa82,#63c0c8,#055b5b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0aaa82,#63c0c8, #055b5b); /* Standard syntax */
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica;
+}
+.login
+{
+    width: 250px;
+    margin:auto;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 0 0 5px5px;
+    -webkit-box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.77);
+    -moz-box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.77);
+    box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.77);
+    background-color:#fff;
+    margin-top: 10px;
+    
+}
+#welcome
+{
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #055b5b;
+    color: #ffff;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border-radius: 5px 5px 0 0;
+    margin: auto;
+    text-align: center;
+     margin-top: 10%;
+    -webkit-box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.77);
+    -moz-box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.77);
+    box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.77);
+}
+.login .textboxlog
+{
+    margin-bottom: 15px;
+    border-color: #cccc;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.login #botonli
+{
+    margin-bottom: 10px;
+    background-color: #11a66f;
+    border-style: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 150px;
+    color: #ffff;
+    font-weight: bold;
+}
+.bodyin
+{
+    background-color: #cccc;
+    font-family: Helvetica;
+}
+.rectsup
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%; 
+    background-color: #cccccc;
+    height: 10px;
+    z-index: 3;
+}
+.navbar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #133e3c;
+    height: 50px;
+    margin-top: 10px;
+    z-index: 2;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.5);
+	 -webkit-box-shadow:0px 4px 4px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.5);
+    
+}
+.navbar p
+{
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    
+}
+.navbarlat
+{
+    background-color: #008B82;
+    position: fixed;
+    float: left;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    margin-top: 60px;
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    color: #ffff;
+}
+.navbarlat ul
+{
+    margin-left: -40px;
+    font-size: 10px;
+    margin-top: 26px;
+    color: #cccc;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbarlat ul:hover
+{
+    color: #ffff;
+}
+.contenido
+{
+    
+    background-color: #ffff;
+    margin-top: 70px;
+    margin-left: 105px;
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+    z-index: 0;
+    position:absolute;
+    overflow: scroll;
+}
+.navbar #title
+{
+	position: absolute;
+	margin-top: 15px;
+	color:#ffff;
+	margin-left: 20px;
+	letter-spacing: 6px;
+	font-weight: bold;
+	
+}
+.navbar #title2
+{
+	position: absolute;
+	margin-top: 15px;
+	color:#ffff;
+	margin-left: 153px;
+	letter-spacing: 6px;
+	font-weight: bold;
+	
+}
+
+.navbar #logo1
+{
+    position: absolute;
+	margin-left: 105px;
+	letter-spacing: 6px;
+	font-weight: bold;
+}
+
+.navbar #pscname
+{
+    float: right;
+    padding-right: 100px;
+    color: #ccc;
+}
+.navbar #logout
+{
+    position: fixed;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    float: right;
+}
+#plogout
+{
+   float: right; 
+    margin-right: -230;
+}
+#laticon
+{
+    font-size:30px;
+    margin-bottom: 10px;
+}
+#calendario
+{
+    display: block;
+    overflow: inherit;
+}
+#agenda
+{
+    display: none;
+    overflow: inherit;
+}
+#notas
+{
+    display: none;
+    overflow: inherit;
+}
+#formcita
+{
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    border-style: solid;
+    border-color: #cccc;
+    color:#3a3a3a;
+    
+    
+}
+#formpaciente
+{
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    border-style: solid;
+    border-color: #cccc;
+    color:#3a3a3a;
+}
+#formnota
+{
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    border-style: solid;
+    border-color: #cccc;
+    color:#3a3a3a;
+}
+.list
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+table
+{
+    border-style: solid;
+    width: 100%;
+     border-color:#ccc;
+    text-align: center;
+    background-color: #fff;
+    
+}
+table thead
+{
+    background-color: #cccccccc;
+    color:#3a3a3a;
+}
+table tr,table td
+{
+    border-style: solid;
+    border-color: #cccc;
+    padding: 0;
+
+    
+}
+.botonform
+{
+    
+    background-color: #11a66f;
+    border-style: none;
+    border-radius: 3px;
+    padding: 5px;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+l
+{
+    padding: 10px;
+}
+#editicon,#trashicon
+{
+    color: #ccc;
+}
+#cal
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:  #133e3c;
+}
+}
+#age,#not
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:  #008B82;
+}
+.bodybus
+{
+    background: -webkit-linear-gradient(#0aaa82,#63c0c8,#055b5b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0aaa82,#63c0c8, #055b5b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0aaa82,#63c0c8,#055b5b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0aaa82,#63c0c8, #055b5b); /* Standard syntax */
+}
+.buscar
+{
+    list-style: none;
+    font-family: Helvetica;
+    text-align: center;
+    padding:30px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20%;
+    background-color: #fff;
+    border-radius: 0 0 5px5px;
+    -webkit-box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.77);
+    -moz-box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.77);
+    box-shadow: 0px 9px 34px 0px rgba(0,0,0,0.77);
+    
+}
+#botonli
+{
+    margin-bottom: 10px;
+    background-color: #11a66f;
+    border-style: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 150px;
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+}
+#busdate,#bustime,#buspas,#busbus
+{
+    margin-top: 10px;
+}
+.busq #botonli
+{
+    margin: 20px;
+}
+@media screen and (max-width:600px)
+{
+    .navbar
+    {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        background-color: #133e3c;
+        height: 70px;
+        margin-top: 10px;
+        z-index: 2;
+        text-decoration: none;
+        box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.5);
+         -webkit-box-shadow:0px 4px 4px 1px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.5);
+
+    }
+    .navbar p
+    {
+        margin-top: 40px;
+        display: inline-block;
+        color: #ffff;
+        text-decoration: none;
+        float: left;
+        margin-left: 0px;
+
+    }
+    .navbarlat
+    {
+        background-color: #008B82;
+        position: fixed;
+        float: left;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        margin-top: 80px;
+        height: 100%;
+        width: 50px;
+        text-align: center;
+        color: #ffff;
+    }
+    .navbarlat ul
+    {
+        margin-left: -40px;
+        font-size: 5px;
+        margin-top: 26px;
+        color: #cccc;
+        cursor: pointer;
+        text-decoration: none;
+        
+    }
+    .navbarlat ul:hover
+    {
+        color: #ffff;
+    }
+    .navbar #logout
+    {
+        position: fixed;
+        text-decoration: none;
+        color: #ffff;
+        font-size: 15px;
+        float: right;
+    }
+    #plogout
+    {
+       float: right; 
+        margin-right: -270;
+    }
+    .contenido
+    {
+
+        background-color: #ffff;
+        margin-top: 85px;
+        margin-left: 50px;
+        height: 100%;
+        float: right;
+        margin-right: 10px;
+        z-index: 0;
+        position:absolute;
+        overflow: scroll;
+    }
+}
+
+#no
+{
+    background-color: #f92b49;
+    border-radius: 3px;
+    color: white;
+    width: 40px;
+    
+}
+#si
+{
+    background-color: #3ACF29;
+    border-radius: 3px;
+    color: white;
+    width: 40px;
+}
